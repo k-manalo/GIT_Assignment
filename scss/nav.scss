@@ -9,8 +9,6 @@ nav {
   justify-content: space-between;
 
   .logo {
-    border: 2px solid white;
-
     p {
       margin-top: 20px;
       font-size: 20px;
@@ -26,7 +24,6 @@ nav {
       display: flex;
       align-items: center;
       justify-content: center;
-      text-transform: lowercase;
     }
 
     a {
@@ -41,7 +38,7 @@ nav {
 
     span {
       margin: 0 20px;
-      color: white;
+      color: peru;
       font-size: 30px;
     }
   }
@@ -68,7 +65,7 @@ nav {
 
           &:hover > .links {
             display: block;
-            background-color: black;
+            background-color: white;
           }
         }
       }
