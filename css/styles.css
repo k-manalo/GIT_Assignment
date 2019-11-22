@@ -120,7 +120,7 @@ footer {
 nav {
   position: relative;
   width: 80%;
-  height: 92px;
+  height: 70px;
   z-index: 99;
   border-bottom: 2px solid white;
   display: -webkit-box;
@@ -149,7 +149,6 @@ nav {
     -ms-flex-pack: center;
     justify-content: center; }
   nav .link-wrap a {
-    font-weight: 100;
     color: white;
     font-size: 15px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
