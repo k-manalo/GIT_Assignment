@@ -8,12 +8,11 @@
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
-    width: 1280px;
     height: 100%;
     background-image: linear-gradient(
         to right,
-        rgba(gray, 0.5),
-        rgba(beige, 0.5)
+        rgba(gray, 0.6),
+        rgba(beige, 0.7)
       ),
       url(../images/AdobeStock_294430247.jpg);
     background-position: center;
@@ -22,7 +21,7 @@
   }
 
   .callout {
-    margin-top: 50px;
+    margin-top: 70px;
     text-align: center;
     width: 500px;
     min-height: 200px;
@@ -44,6 +43,7 @@
       sans-serif;
     font-weight: 100;
     font-size: 15px;
+    border-radius: 7px;
   }
 }
 

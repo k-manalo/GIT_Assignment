@@ -1,0 +1,35 @@
+.section-1 {
+  margin: auto 0;
+  background-color: #a84c32;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  justify-content: center;
+
+  .turkeyphoto {
+    margin-top: 40px;
+    display: flex;
+    width: 500px;
+    height: 300px;
+    background-image: url(../images/76766178thanksgiving.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .desc1 {
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 600px;
+    height: 300px;
+    color: white;
+
+    h2 {
+      font-size: 30px;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  }
+}

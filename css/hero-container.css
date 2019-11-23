@@ -14,17 +14,16 @@
     -ms-flex-align: center;
     align-items: center;
     margin: 0 auto;
-    width: 1280px;
     height: 100%;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(128, 128, 128, 0.5)), to(rgba(245, 245, 220, 0.5))), url(../images/AdobeStock_294430247.jpg);
-    background-image: -webkit-linear-gradient(left, rgba(128, 128, 128, 0.5), rgba(245, 245, 220, 0.5)), url(../images/AdobeStock_294430247.jpg);
-    background-image: -o-linear-gradient(left, rgba(128, 128, 128, 0.5), rgba(245, 245, 220, 0.5)), url(../images/AdobeStock_294430247.jpg);
-    background-image: linear-gradient(to right, rgba(128, 128, 128, 0.5), rgba(245, 245, 220, 0.5)), url(../images/AdobeStock_294430247.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(128, 128, 128, 0.6)), to(rgba(245, 245, 220, 0.7))), url(../images/AdobeStock_294430247.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(128, 128, 128, 0.6), rgba(245, 245, 220, 0.7)), url(../images/AdobeStock_294430247.jpg);
+    background-image: -o-linear-gradient(left, rgba(128, 128, 128, 0.6), rgba(245, 245, 220, 0.7)), url(../images/AdobeStock_294430247.jpg);
+    background-image: linear-gradient(to right, rgba(128, 128, 128, 0.6), rgba(245, 245, 220, 0.7)), url(../images/AdobeStock_294430247.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; }
   .hero-container .callout {
-    margin-top: 50px;
+    margin-top: 70px;
     text-align: center;
     width: 500px;
     min-height: 200px; }
@@ -40,7 +39,8 @@
     color: white;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     font-weight: 100;
-    font-size: 15px; }
+    font-size: 15px;
+    border-radius: 7px; }
 
 @media (max-width: 1000px) {
   .hero-container {

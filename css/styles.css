@@ -1,10 +1,134 @@
+.section-2 {
+  background-color: white;
+  margin: auto 0;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 40px;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly; }
+  .section-2 .picture1 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/AdobeStock_18165637.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .section-2 .picture2 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/AdobeStock_95765298.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .section-2 .picture3 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/AdobeStock_209348198.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .section-2 .order-button {
+    margin-top: 320px;
+    padding: 10px 25px;
+    background-color: #43691d;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-radius: 7px;
+    text-align: center; }
+
+.section-1 {
+  margin: auto 0;
+  background-color: #a84c32;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 40px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .section-1 .turkeyphoto {
+    margin-top: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 500px;
+    height: 300px;
+    background-image: url(../images/76766178thanksgiving.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .section-1 .desc1 {
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 600px;
+    height: 300px;
+    color: white; }
+    .section-1 .desc1 h2 {
+      font-size: 30px;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif; }
+
 footer {
   width: 100%;
   height: 100px;
   background-color: peru;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  position: fixed;
+  bottom: 0;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between; }
@@ -83,17 +207,16 @@ footer {
     -ms-flex-align: center;
     align-items: center;
     margin: 0 auto;
-    width: 1280px;
     height: 100%;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(128, 128, 128, 0.5)), to(rgba(245, 245, 220, 0.5))), url(../images/AdobeStock_294430247.jpg);
-    background-image: -webkit-linear-gradient(left, rgba(128, 128, 128, 0.5), rgba(245, 245, 220, 0.5)), url(../images/AdobeStock_294430247.jpg);
-    background-image: -o-linear-gradient(left, rgba(128, 128, 128, 0.5), rgba(245, 245, 220, 0.5)), url(../images/AdobeStock_294430247.jpg);
-    background-image: linear-gradient(to right, rgba(128, 128, 128, 0.5), rgba(245, 245, 220, 0.5)), url(../images/AdobeStock_294430247.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(128, 128, 128, 0.6)), to(rgba(245, 245, 220, 0.7))), url(../images/AdobeStock_294430247.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(128, 128, 128, 0.6), rgba(245, 245, 220, 0.7)), url(../images/AdobeStock_294430247.jpg);
+    background-image: -o-linear-gradient(left, rgba(128, 128, 128, 0.6), rgba(245, 245, 220, 0.7)), url(../images/AdobeStock_294430247.jpg);
+    background-image: linear-gradient(to right, rgba(128, 128, 128, 0.6), rgba(245, 245, 220, 0.7)), url(../images/AdobeStock_294430247.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; }
   .hero-container .callout {
-    margin-top: 50px;
+    margin-top: 70px;
     text-align: center;
     width: 500px;
     min-height: 200px; }
@@ -109,7 +232,8 @@ footer {
     color: white;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     font-weight: 100;
-    font-size: 15px; }
+    font-size: 15px;
+    border-radius: 7px; }
 
 @media (max-width: 1000px) {
   .hero-container {

@@ -2,9 +2,8 @@ footer {
   width: 100%;
   height: 100px;
   background-color: peru;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  position: fixed;
+  bottom: 0;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between; }
@@ -22,6 +21,11 @@ footer {
     -ms-flex-pack: justify;
     justify-content: space-between;
     margin-top: 30px; }
+    footer .footer-2 .footer-logo p {
+      font-size: 20px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+      color: white;
+      letter-spacing: 2px; }
     footer .footer-2 .copyright {
       color: white;
       font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; }
