@@ -1,0 +1,34 @@
+.section-3 {
+  margin: auto 0;
+  background-color: #c4911a;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 40px;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+
+  .turkeyphoto2 {
+    float: right;
+    margin-top: 40px;
+    width: 500px;
+    height: 300px;
+    background-image: url(../images/turkeyphoto2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .desc1 {
+    margin-top: 40px;
+    width: 600px;
+    height: 300px;
+    color: white;
+
+    h2 {
+      font-size: 30px;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  }
+}
