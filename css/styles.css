@@ -1,3 +1,40 @@
+.section-4 {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 50px; }
+  .section-4 h2 {
+    margin: 0 auto;
+    font-size: 30px;
+    color: #a84c32;
+    font-family: Arial, Helvetica, sans-serif; }
+  .section-4 p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15pt;
+    color: #a84c32;
+    line-height: 20pt; }
+  .section-4 .read-button {
+    margin: 0 auto;
+    padding: 10px 25px;
+    background-color: #a84c32;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-radius: 7px;
+    text-align: center; }
+
 .section-3 {
   margin: auto 0;
   background-color: #c4911a;
@@ -24,6 +61,7 @@
     background-position: center;
     background-size: cover; }
   .section-3 .desc1 {
+    margin-right: 20px;
     margin-top: 40px;
     width: 600px;
     height: 300px;
@@ -191,13 +229,14 @@
       margin-top: 90px;
       color: white;
       font-size: 40px;
-      font-family: Arial, Helvetica, sans-serif; }
+      font-family: Arial, Helvetica, sans-serif;
+      margin-bottom: 20px; }
   .hero-container .site-button {
     padding: 10px 25px;
     background-color: peru;
     text-decoration: none;
     color: white;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 15px;
     border-radius: 7px; }
