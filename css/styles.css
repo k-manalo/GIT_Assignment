@@ -1,3 +1,215 @@
+.section-7 {
+  margin: auto 0;
+  width: 100%;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: brown; }
+  .section-7 .chefimg {
+    margin: 0 auto;
+    width: 200px;
+    height: 300px;
+    background-image: url(../images/linecook.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .section-7 p {
+    font-style: italic;
+    margin-top: 50px;
+    text-align: center;
+    width: 600px;
+    color: white; }
+  .section-7 h2 {
+    text-align: center;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 30px; }
+
+.section-6 {
+  margin: auto 0;
+  width: 100%;
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px;
+  -ms-flex-line-pack: center;
+  align-content: center; }
+  .section-6 .title h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #43691d; }
+  .section-6 .inputs {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: inline-block;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 50px; }
+    .section-6 .inputs .name {
+      margin-top: 10px; }
+      .section-6 .inputs .name input {
+        width: 344px;
+        height: 58px;
+        font-size: 18px;
+        padding-left: 10px;
+        border: 1px solid #a84c32; }
+        .section-6 .inputs .name input::-webkit-input-placeholder {
+          color: black; }
+        .section-6 .inputs .name input:-ms-input-placeholder {
+          color: black; }
+        .section-6 .inputs .name input::-ms-input-placeholder {
+          color: black; }
+        .section-6 .inputs .name input::placeholder {
+          color: black; }
+    .section-6 .inputs .phone {
+      margin-top: 10px; }
+      .section-6 .inputs .phone input {
+        width: 344px;
+        height: 58px;
+        font-size: 18px;
+        padding-left: 10px;
+        border: 1px solid #a84c32; }
+        .section-6 .inputs .phone input::-webkit-input-placeholder {
+          color: black; }
+        .section-6 .inputs .phone input:-ms-input-placeholder {
+          color: black; }
+        .section-6 .inputs .phone input::-ms-input-placeholder {
+          color: black; }
+        .section-6 .inputs .phone input::placeholder {
+          color: black; }
+    .section-6 .inputs .email {
+      margin-top: 10px; }
+      .section-6 .inputs .email input {
+        width: 344px;
+        height: 58px;
+        font-size: 18px;
+        padding-left: 10px;
+        border: 1px solid #a84c32; }
+        .section-6 .inputs .email input::-webkit-input-placeholder {
+          color: black; }
+        .section-6 .inputs .email input:-ms-input-placeholder {
+          color: black; }
+        .section-6 .inputs .email input::-ms-input-placeholder {
+          color: black; }
+        .section-6 .inputs .email input::placeholder {
+          color: black; }
+    .section-6 .inputs .address {
+      margin-top: 10px; }
+      .section-6 .inputs .address input {
+        width: 344px;
+        height: 58px;
+        font-size: 18px;
+        padding-left: 10px;
+        border: 1px solid #a84c32; }
+        .section-6 .inputs .address input::-webkit-input-placeholder {
+          color: black; }
+        .section-6 .inputs .address input:-ms-input-placeholder {
+          color: black; }
+        .section-6 .inputs .address input::-ms-input-placeholder {
+          color: black; }
+        .section-6 .inputs .address input::placeholder {
+          color: black; }
+    .section-6 .inputs .date {
+      margin-top: 10px; }
+      .section-6 .inputs .date input {
+        width: 344px;
+        height: 58px;
+        font-size: 18px;
+        padding-left: 10px;
+        border: 1px solid #a84c32; }
+        .section-6 .inputs .date input::-webkit-input-placeholder {
+          color: black; }
+        .section-6 .inputs .date input:-ms-input-placeholder {
+          color: black; }
+        .section-6 .inputs .date input::-ms-input-placeholder {
+          color: black; }
+        .section-6 .inputs .date input::placeholder {
+          color: black; }
+    .section-6 .inputs .partySize {
+      margin-top: 10px;
+      margin-bottom: 40px; }
+      .section-6 .inputs .partySize input {
+        width: 344px;
+        height: 58px;
+        font-size: 18px;
+        padding-left: 10px;
+        border: 1px solid #a84c32; }
+        .section-6 .inputs .partySize input::-webkit-input-placeholder {
+          color: black; }
+        .section-6 .inputs .partySize input:-ms-input-placeholder {
+          color: black; }
+        .section-6 .inputs .partySize input::-ms-input-placeholder {
+          color: black; }
+        .section-6 .inputs .partySize input::placeholder {
+          color: black; }
+    .section-6 .inputs .submit {
+      background-color: #43691d;
+      width: 150px;
+      height: 30px;
+      text-align: center;
+      padding: 5px 25px;
+      color: white;
+      border-radius: 7px;
+      text-decoration: none; }
+  .section-6 .map {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 60px; }
+
+.section-5 {
+  margin: auto 0;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #43691d; }
+  .section-5 .desimg {
+    margin-top: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 200px;
+    height: 300px;
+    background-image: url(../images/AdobeStock_182577258.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 20px; }
+  .section-5 .desc5 {
+    width: 1000px;
+    margin-left: 20px; }
+    .section-5 .desc5 h2 {
+      margin-top: 40px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      font-size: 30px; }
+    .section-5 .desc5 p {
+      color: white; }
+
 .section-4 {
   margin: 0 auto;
   width: 100%;
