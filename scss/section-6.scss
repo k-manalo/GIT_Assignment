@@ -4,7 +4,7 @@
   height: 700px;
   display: flex;
   padding: 40px;
-  align-content: center;
+  justify-content: center;
   .title {
     h2 {
       font-family: Arial, Helvetica, sans-serif;
@@ -19,6 +19,7 @@
     display: inline-block;
     flex-direction: column;
     margin-top: 50px;
+
     .name {
       margin-top: 10px;
       input {
